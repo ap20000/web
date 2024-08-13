@@ -1,0 +1,22 @@
+/* Hero.css */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.youtube-video {
+  width: 80%;
+  height: 300px;
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-logo img {
+  width: 200px;
+  height: auto;
+  margin-top: 20px;
+}

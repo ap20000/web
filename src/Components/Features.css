@@ -1,0 +1,29 @@
+/* Features.css */
+.features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.feature-item {
+  text-align: center;
+  overflow: hidden; /* Prevents overflow */
+}
+
+.feature-item img {
+  max-width: 100%;  /* Ensures the image fits within its container */
+  height: auto;     /* Maintains aspect ratio */
+  object-fit: contain; /* Crops the image to fit the container if needed */
+  
+}
+
+.feature-item h2 {
+  font-size: 36px;
+  color: black;
+}
+
+.feature-item h3 {
+  font-size: 24px;
+  color: orange;
+}
