@@ -1,20 +1,23 @@
-/* Features.css */
+
 .features {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
-  padding: 20px;
+  grid-gap: 2rem;
+  padding-left: 5.3rem;
+  padding-right: 5.3rem;
+  height: 100vh;
+  margin-bottom: 50px;
 }
 
 .feature-item {
   text-align: center;
-  overflow: hidden; /* Prevents overflow */
+  overflow: hidden; 
 }
 
 .feature-item img {
-  max-width: 100%;  /* Ensures the image fits within its container */
-  height: auto;     /* Maintains aspect ratio */
-  object-fit: contain; /* Crops the image to fit the container if needed */
+  max-width: 100%;  
+  height: auto;   
+  object-fit: contain; 
   
 }
 

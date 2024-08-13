@@ -1,5 +1,5 @@
-/* Inspiration.css */
 .inspiration {
+  background-image: url('../Assets/nature.jpg'); 
   background-size: cover;
   background-position: center;
   color: white;

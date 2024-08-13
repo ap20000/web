@@ -1,14 +1,14 @@
 import React from 'react';
 import './Features.css';
-import featureImage from '../Assets/1542298796.jpg'; // Import the image
-import Image2 from '../Assets/earth.png'; // Import the image
-import Image3 from '../Assets/work culture.png'; // Import the image
+import Image1 from '../Assets/1542298796.jpg'; 
+import Image2 from '../Assets/earth.png'; 
+import Image3 from '../Assets/work culture.png';
 
 const Features = () => {
   return (
     <div className="features">
       <div className="feature-item">
-        <img src={featureImage} alt="Feature 1" />
+        <img src={Image1} alt="Feature 1" />
       </div>
       <div className="feature-item">
         <h2>Features</h2>

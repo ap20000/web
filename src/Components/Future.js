@@ -1,6 +1,6 @@
 import React from 'react';
 import './Future.css';
-import futureImage from '../Assets/original.jpg'; // Import the image
+import futureImage from '../Assets/original.jpg';
 
 const Future = () => {
   return (
